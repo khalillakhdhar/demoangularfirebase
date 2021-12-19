@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="row">
+      <div class="col">
+        
+      </div>
+      <div class="col">
+      <form>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email :</label>
+            <input type="email" [(ngModel)]="employee.email" class="form-control" placeholder="name@example.com" name="email">
+          </div>
+          <div class="mb-3">
+            <label class="form-label">mot de passe</label>
+            <input class="form-control" [(ngModel)]="employee.mdp" name="password" type="password">
+          </div>
+          <div class="mb-3">
+            <button (click)="verif()" class="btn btn-primary">Connexion</button>
+          </div>
+      </form>
+
+      </div>
+      <div class="col">
+        
+      </div>
+    </div>
+  </div>
+
+
